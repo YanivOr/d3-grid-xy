@@ -1,0 +1,32 @@
+.container {
+  fill: #1a1a1a;
+}
+
+.main-rect {
+  stroke: #ffffff22;
+}
+
+.x-axis line,
+.x-axis path,
+.y-axis line,
+.y-axis path {
+  stroke: #ffffff05;
+}
+
+.handle {
+  fill: #4eb6f322;
+  cursor: grabbing;
+}
+
+.xPositions, .yPositions {
+  fill: #1a1a1a;
+}
+
+.xPositions .xPosition, .yPositions .yPosition {
+  fill: #dddddd;
+}
+
+.wrapper-rect {
+  fill: none;
+  stroke: #cccccc55;
+}
