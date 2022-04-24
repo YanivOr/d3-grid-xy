@@ -1,4 +1,4 @@
-const data = [...Array(300).keys()]; // each unit is a millimeter
+const data = [...Array(300).keys()]; // each unit is 1 millimeter
 
 (() => {
   new Container({

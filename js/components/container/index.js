@@ -124,7 +124,7 @@ class Container {
       .attr("width", this.yPositionH)
       .attr("height", yScale.bandwidth())
       .attr("x", 0)
-      .attr("y", (_, i) => yScale(i) + yScale.bandwidth() / 2 - 5)
+      .attr("y", (_, i) => yScale(i) + yScale.bandwidth() / 2 + 6)
       .attr("class", "yPosition")
       .text((_, i) => (i % step === 0 ? i : ""));
   }
